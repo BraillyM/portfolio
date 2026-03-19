@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow">
@@ -21,6 +23,7 @@
                     <li class="nav-item"><a class="nav-link" href="#formations">FORMATIONS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#competences">COMPÉTENCES</a></li>
                     <li class="nav-item"><a class="nav-link" href="#experiences">EXPÉRIENCES</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#documentations">DOCUMENTATIONS</a></li>
                     <li class="nav-item"><a class="nav-link" href="#contact">CONTACT</a></li>
                 </ul>
             </div>
@@ -31,10 +34,11 @@
         <div class="container">
             <h1 class="display-3 fw-bold">Mathéo Brailly</h1>
             <p class="lead">Étudiant en BTS SIO option SISR</p>
-            <img src="photo.jpg" alt="Photo Mathéo Brailly" width="200" height="300">
+            <img src="photo.jpg" alt="Photo Mathéo Brailly" class="rounded-circle img-fluid" width="150" height="300">
             <p>21 ans | 29200 Brest | Permis B</p>
             <div class="mt-4">
-                <a href="./Mathéo_BRAILLY_CV2026.pdf" class="btn btn-info text-white px-4 rounded-pill shadow" download>Télécharger CV PDF</a>
+                <a href="./Mathéo_BRAILLY_CV2026.pdf" class="btn btn-info text-white px-4 rounded-pill shadow"
+                    download target="_blank">Télécharger CV PDF</a>
             </div>
         </div>
     </section>
@@ -76,12 +80,15 @@
         </section>
 
         <section id="experiences" class="py-5">
-            <div class="text-center"><h2 class="cv-section-title">Expériences Professionnelles</h2></div>
-            
+            <div class="text-center">
+                <h2 class="cv-section-title">Expériences Professionnelles</h2>
+            </div>
+
             <div class="row justify-content-center">
                 <div class="col-md-10">
 
-                    <h4 class="mb-4 text-primary fw-bold text-uppercase" style="font-size: 1.2rem;">Technicien de Maintenance Informatique</h4>
+                    <h4 class="mb-4 text-primary fw-bold text-uppercase" style="font-size: 1.2rem;">Technicien de
+                        Maintenance Informatique</h4>
 
                     <div class="card p-3 border-left-custom">
                         <div class="d-flex justify-content-between flex-wrap">
@@ -161,7 +168,8 @@
                         <p class="small mb-0">Immersion au sein du service informatique.</p>
                     </div>
 
-                    <h4 class="my-4 text-primary fw-bold text-uppercase" style="font-size: 1.2rem;">Autres Expériences Numériques</h4>
+                    <h4 class="my-4 text-primary fw-bold text-uppercase" style="font-size: 1.2rem;">Autres Expériences
+                        Numériques</h4>
 
                     <div class="card p-3 border-left-custom">
                         <div class="d-flex justify-content-between flex-wrap">
@@ -191,17 +199,106 @@
             </div>
         </section>
 
+        <section id="documentations" class="py-5">
+            <div class="text-center">
+                <h2 class="cv-section-title">Mes Documentations</h2>
+            </div>
+
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-4">
+                    <a href="assets/docs/schema-reseau-landerneau.pdf" target="_blank"
+                        class="text-decoration-none text-dark">
+                        <div class="card h-100 doc-card text-center">
+                            <div class="card-body">
+                                <div class="display-4 mb-3">🕸️</div>
+                                <h5 class="fw-bold" style="color: var(--dark-blue);">Schéma Réseau</h5>
+                                <p class="small text-muted">Exemple de schématisation d'infrastructure réalisé à
+                                    Landerneau.</p>
+                                <span class="btn btn-sm btn-outline-primary rounded-pill">Consulter</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="assets/docs/procedure-migration-m365.pdf" target="_blank"
+                        class="text-decoration-none text-dark">
+                        <div class="card h-100 doc-card text-center">
+                            <div class="card-body">
+                                <div class="display-4 mb-3">📄</div>
+                                <h5 class="fw-bold" style="color: var(--dark-blue);">Procédure M365</h5>
+                                <p class="small text-muted">Documentation technique sur la migration vers Microsoft 365.
+                                </p>
+                                <span class="btn btn-sm btn-outline-primary rounded-pill">Consulter</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="assets/docs/rapport-stage-brest.pdf" target="_blank"
+                        class="text-decoration-none text-dark">
+                        <div class="card h-100 doc-card text-center">
+                            <div class="card-body">
+                                <div class="display-4 mb-3">📝</div>
+                                <h5 class="fw-bold" style="color: var(--dark-blue);">Rapport de Stage</h5>
+                                <p class="small text-muted">Détails des missions effectuées à la DSIT de Brest
+                                    Métropole.</p>
+                                <span class="btn btn-sm btn-outline-primary rounded-pill">Consulter</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="assets/docs/rapport-stage-brest.pdf" target="_blank"
+                        class="text-decoration-none text-dark">
+                        <div class="card h-100 doc-card text-center">
+                            <div class="card-body">
+                                <div class="display-4 mb-3">📝</div>
+                                <h5 class="fw-bold" style="color: var(--dark-blue);">Rapport de Stage</h5>
+                                <p class="small text-muted">Détails des missions effectuées à la DSIT de Brest
+                                    Métropole.</p>
+                                <span class="btn btn-sm btn-outline-primary rounded-pill">Consulter</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="col-md-4">
+                    <a href="assets/docs/rapport-stage-brest.pdf" target="_blank"
+                        class="text-decoration-none text-dark">
+                        <div class="card h-100 doc-card text-center">
+                            <div class="card-body">
+                                <div class="display-4 mb-3">📝</div>
+                                <h5 class="fw-bold" style="color: var(--dark-blue);">Rapport de Stage</h5>
+                                <p class="small text-muted">Détails des missions effectuées à la DSIT de Brest
+                                    Métropole.</p>
+                                <span class="btn btn-sm btn-outline-primary rounded-pill">Consulter</span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
         <section id="contact" class="py-5">
-            <div class="text-center"><h2 class="cv-section-title">Contact</h2></div>
+            <div class="text-center">
+                <h2 class="cv-section-title">Contact</h2>
+            </div>
             <div class="row justify-content-center g-5">
-                
+
                 <div class="col-md-6">
                     <div class="card p-4 shadow-sm">
                         <form>
-                            <div class="mb-3"><input type="text" class="form-control rounded-pill" placeholder="Votre Nom"></div>
-                            <div class="mb-3"><input type="email" class="form-control rounded-pill" placeholder="Votre Email"></div>
-                            <div class="mb-3"><textarea class="form-control" rows="4" style="border-radius:15px;" placeholder="Message"></textarea></div>
-                            <button type="button" class="btn btn-primary w-100 rounded-pill py-2 fw-bold" style="background-color: var(--dark-blue); border: none;">Envoyer</button>
+                            <div class="mb-3"><input type="text" class="form-control rounded-pill"
+                                    placeholder="Votre Nom"></div>
+                            <div class="mb-3"><input type="email" class="form-control rounded-pill"
+                                    placeholder="Votre Email"></div>
+                            <div class="mb-3"><textarea class="form-control" rows="4" style="border-radius:15px;"
+                                    placeholder="Message"></textarea></div>
+                            <button type="button" class="btn btn-primary w-100 rounded-pill py-2 fw-bold"
+                                style="background-color: var(--dark-blue); border: none;">Envoyer</button>
                         </form>
                     </div>
                 </div>
@@ -219,4 +316,5 @@
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
