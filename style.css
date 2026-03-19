@@ -78,3 +78,25 @@ footer {
 .italic {
     font-style: italic;
 }
+/* Style spécifique pour les cartes de documentation */
+.doc-card {
+    cursor: pointer;
+    border: 1px solid rgba(0,0,0,0.05);
+}
+
+.doc-card:hover {
+    background-color: #f0faff; /* Un léger fond bleu au survol */
+    border-color: var(--light-blue);
+}
+
+.doc-card .display-4 {
+    transition: transform 0.3s ease;
+}
+
+.doc-card:hover .display-4 {
+    transform: scale(1.2); /* L'icône grossit un peu au survol */
+}
+
+.text-decoration-none:hover {
+    text-decoration: none;
+}
